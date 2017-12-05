@@ -1,6 +1,3 @@
-require 'pry'
-require 'pry-nav'
-
 def checksum(matrix)
   # This is O(n^2), which sucks. There's probably
   # a clever O(n) solution that's not coming to me.
