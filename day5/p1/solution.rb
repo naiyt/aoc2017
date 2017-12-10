@@ -9,6 +9,5 @@ def num_of_steps(instructions)
   steps
 end
 
-
 instructions = File.read('input.txt').split("\n").map(&:to_i)
 p num_of_steps(instructions)
